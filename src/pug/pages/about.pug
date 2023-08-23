@@ -1,0 +1,19 @@
+extends template
+
+block css
+	link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+	title Main
+
+block content
+	include ../blocks/main-header
+	h1 About page
+	ul
+		li
+			a(href="/") Home
+		li
+			a(href="/about.html") About
+
+block scripts
+	script(src="assets/js/dist/webpack.js")
