@@ -1,16 +1,16 @@
 .block-news {
-    margin-bottom: 83px;
+    margin-bottom: 85px;
 
     &__title {
-        margin-bottom: 43px;
+        margin-bottom: 40px;
     }
 
     &__wrap {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 80px 54px;
-        padding-bottom: 134px;
+        padding-bottom: 129px;
+        gap: 83px 54px;
         border-bottom: 1px solid rgba(14, 129, 174, 0.50);
     }
 
@@ -36,6 +36,7 @@
 
     &__text {
         margin-bottom: 39px;
+        padding-left: 9px;
     }
 
     &__link {

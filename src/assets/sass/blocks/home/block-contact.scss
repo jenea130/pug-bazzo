@@ -1,5 +1,5 @@
 .block-contact {
-    margin-bottom: 80px;
+    margin-bottom: 65px;
     &__wrap {
         display: flex;
         gap: 94px;
@@ -10,7 +10,7 @@
     }
 
     &__title {
-        margin-bottom: 32px;
+        margin-bottom: 29px;
     }
 
     &__points {
@@ -18,27 +18,27 @@
     }
 
     &__subtitle {
-        margin-bottom: 20px;
+        margin-bottom: 29px;
         font-size: 24px;
         font-weight: 600;
         text-transform: capitalize;
     }
 
     &__point:not(:last-of-type) {
-        margin-bottom: 20px;
+        margin-bottom: 56px;
     }
     &__street,
     &__text,
     &__tel,
     &__fax,
     &__email {
-        margin-bottom: 6px;
+        margin-bottom: 11px;
     }
 
     &__tel,
     &__fax,
     &__email {
-        span {
+        a {
             color: var(--accent);
         }
     }
