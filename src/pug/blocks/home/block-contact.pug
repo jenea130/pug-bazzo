@@ -1,0 +1,36 @@
+section.block-contact
+    .container
+        h2.block-contact__title.title contatti
+        .block-contact__wrap
+            .block-contact__form
+                .form
+                    form(action="") 
+                        .form__wrap
+                            .form__group
+                                input(type='text' placeholder='name')
+                            .form__group
+                                input(type='email' placeholder='email')
+                        .form__group
+                            input(type='text' placeholder='oggetto')
+                        .form__group
+                            textarea(name="" placeholder="Messaggio") 
+                        .form__footer
+                            button.form__submit.btn(disabled='true') Invia
+                            .form__privacy
+                                input#checkbox.form__checkbox(type='checkbox')
+                                label(for='checkbox') Cliccando su invia dichiari di aver preso visione e di accettare la nostra #[span privacy policy]
+                                    
+            .block-contact__points
+                .block-contact__point 
+                    h3.block-contact__subtitle Sede principale
+                    .block-contact__street 31053 - PIEVE DI SOLIGO (TV)  Viale Garibaldi n.57
+                    .block-contact__text Orario di apertura: dal lunedì al venerdì 8.30 - 12.00 e 14.00 - 18.30
+                    .block-contact__tel Tel. #[span +39 (0)438 82684]
+                    .block-contact__fax Fax. #[span +39 (0)438 1844173]
+                    .block-contact__email Email: #[span studio@smba.it]
+                .block-contact__point 
+                    h3.block-contact__subtitle Sede secondaria
+                    .block-contact__text Via XX Settembre 22, 32020 Cencenighe a Gordino (BL)
+                    .block-contact__tel Tel: #[span +39 (0)437 580124]
+                    .block-contact__fax Fax. #[span +39 (0)437 588070]
+                    .block-contact__email Email: #[span studiocence@smba.it]

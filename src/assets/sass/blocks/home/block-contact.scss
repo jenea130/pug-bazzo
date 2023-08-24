@@ -1,0 +1,44 @@
+.block-contact {
+    &__wrap {
+        display: flex;
+        gap: 94px;
+    }
+
+    &__form {
+        flex: 0 0 647px;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+    }
+
+    &__points {
+        flex: 1;
+    }
+
+    &__subtitle {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    &__point:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+    &__street,
+    &__text,
+    &__tel,
+    &__fax,
+    &__email {
+        margin-bottom: 6px;
+    }
+
+    &__tel,
+    &__fax,
+    &__email {
+        span {
+            color: var(--accent);
+        }
+    }
+}
