@@ -1,0 +1,40 @@
+.block-content {
+    margin-bottom: 114px;
+
+    &__wrap {
+        display: flex;
+        padding-bottom: 114px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid rgba(14, 129, 174, 0.50);
+
+        &:last-of-type {
+            border: none;
+        }
+    }
+
+    &__title {
+        flex: 1;
+    }
+
+    &__text {
+        flex: 1;
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 0.36px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    &__list {
+        padding-left: 18px;
+
+        li {
+            margin-bottom: 6px;
+            list-style-type: disc;
+        }
+    }
+}
