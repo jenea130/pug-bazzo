@@ -35,7 +35,6 @@
     }
 
     textarea {
-        height: 52px;
         resize: none;
     }
 
@@ -48,8 +47,12 @@
             color: white;
         }
     }
-    input[type="text"]:hover::placeholder, 
-    input[type="email"]:hover::placeholder, 
+    textarea::placeholder {
+        color: red;
+    }
+
+    input[type="text"]:hover::placeholder,
+    input[type="email"]:hover::placeholder,
     textarea:hover::placeholder {
         color: white;
     }
@@ -86,6 +89,7 @@
         font-size: 14px;
         font-weight: 400;
         cursor: pointer;
+
         span {
             color: white;
         }
