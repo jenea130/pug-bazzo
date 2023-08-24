@@ -1,8 +1,21 @@
 .main-header {
-    border: 1px solid red;
-    &__wrap {
-        border: 1px solid blue;
-    }
-    
-}
+    padding: 63px 0 41px;
 
+    &__wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 67px;
+    }
+
+    &__logomini {
+        margin-right: auto;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 58px;
+    }
+}
