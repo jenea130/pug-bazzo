@@ -4,16 +4,17 @@ block css
 	link(rel="stylesheet" type="text/css" href="assets/css/my.css")
 
 block title
-	title Main
+	title Bazzo
 
 block content
-	include ../globals/main-header
-	h1 About page
-	ul
-		li
-			a(href="/") Home
-		li
-			a(href="/about.html") About
+		include ../globals/main-header
+		include ../blocks/about/about-banner
+		include ../blocks/about/about-company
+		include ../blocks/about/about-staff
+		
+		include ../blocks/home/block-contact
+		include ../globals/footer-top
+		include ../globals/footer-bottom
 
 block scripts
 	script(src="assets/js/dist/webpack.js")

@@ -1,0 +1,45 @@
+.about-company {
+    margin-bottom: 121px;
+
+    &__wrap {
+        display: flex;
+        padding-bottom: 110px;
+        border-bottom: 1px solid var(--accent);
+    }
+
+    &__logo {
+        flex: 1;
+    }
+
+    &__content {
+        flex: 1;
+
+        p:not(:last-of-type) {
+            margin-bottom: 40px;
+        }
+
+        cite {
+            position: relative;
+            margin-bottom: 39px;
+            padding-left: 53px;
+            display: inline-block;
+            font-style: normal;
+            text-align: justify;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.48px;
+            color: var(--accent);
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -6px;
+                left: 0;
+                width: 37px;
+                height: 26px;
+                background: url("../i/svg/icon-cite.svg") no-repeat;
+            }
+        }
+    }
+}
