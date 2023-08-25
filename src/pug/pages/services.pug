@@ -1,0 +1,19 @@
+extends template
+
+block css
+	link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+	title Bazzo
+
+block content
+	.page-services
+		include ../globals/main-header
+		include ../blocks/services/philosophy
+
+		include ../blocks/home/block-contact
+		include ../globals/footer-top
+		include ../globals/footer-bottom
+
+block scripts
+	script(src="assets/js/dist/webpack.js")
