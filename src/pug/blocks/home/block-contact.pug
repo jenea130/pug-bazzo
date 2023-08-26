@@ -3,23 +3,7 @@ section.block-contact
         h2.block-contact__title.title contatti
         .block-contact__wrap
             .block-contact__form
-                .form
-                    form(action="") 
-                        .form__wrap
-                            .form__group
-                                input(type='text' placeholder='name')
-                            .form__group
-                                input(type='email' placeholder='email')
-                        .form__group
-                            input(type='text' placeholder='oggetto')
-                        .form__group
-                            textarea(placeholder="Messaggio") 
-                        .form__footer
-                            button.form__submit.btn(disabled='true') Invia
-                            .form__privacy
-                                input#checkbox.form__checkbox(type='checkbox')
-                                label(for='checkbox') Cliccando su invia dichiari di aver preso visione e di accettare la nostra #[span privacy policy]
-                                    
+                include ../../globals/form 
             .block-contact__points
                 .block-contact__point 
                     h3.block-contact__subtitle Sede principale
