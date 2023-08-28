@@ -19,36 +19,46 @@
         gap: 58px;
         letter-spacing: 0.35px;
 
-        li {
+        a {
             position: relative;
+            display: block;
             transition: all .4s;
 
-            a {
-                &:hover {
-                    color: var(--accent);
+            &::before {
+                content: '';
+                position: absolute;
+                top: -35px;
+                transform: translateY(-100%);
+                left: 50%;
+                width: 1px;
+                height: 30px;
+                object-fit: cover;
+                background: var(--accent);
+                transition: all .8s;
+                opacity: 0;
+            }
 
-                    &::before {
+            &::after {
+                content: '';
+                position: absolute;
+                top: 35px;
+                transform: translateY(100%);
+                left: 50%;
+                width: 1px;
+                height: 30px;
+                object-fit: cover;
+                background: var(--accent);
+                transition: all .8s;
+                opacity: 0;
+            }
 
-                        content: '';
-                        position: absolute;
-                        top: -35px;
-                        left: 50%;
-                        width: 1px;
-                        height: 30px;
-                        object-fit: cover;
-                        background: var(--accent);
-                    }
+            &:hover {
+                color: var(--accent);
 
-                    &::after {
-                        content: '';
-                        position: absolute;
-                        top: 35px;
-                        left: 50%;
-                        width: 1px;
-                        height: 30px;
-                        object-fit: cover;
-                        background: var(--accent);
-                    }
+                &::before,
+                &::after {
+                    opacity: 1;
+                    transform: translateY(0);
                 }
             }
         }
