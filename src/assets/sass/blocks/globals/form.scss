@@ -1,5 +1,5 @@
 .form {
-    padding: 83px 45px 70px;
+    padding: 64px 45px 70px;
     background: var(--accent);
 
     &__wrap {
@@ -13,22 +13,21 @@
     }
 
     &__group {
-        margin-bottom: 34px;
-
+        margin-bottom: 20px;
+        
     }
 
     input[type="text"],
     input[type="email"],
     textarea {
-        height: 52px;
-        padding-bottom: 20px;
+        height: 70px;
         width: 100%;
         font-family: var(--font-2);
         font-size: 16px;
+        color: white;
         border: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         background: var(--accent);
-        color: white;
         outline: none;
 
         &:hover {
@@ -37,7 +36,11 @@
     }
 
     textarea {
+        margin-bottom: 10px;
         resize: none;
+        &::placeholder {
+            padding-top: 24px;
+        }
     }
 
     input[type="text"]::placeholder,
@@ -64,7 +67,7 @@
     }
 
     &__submit {
-        padding: 25px 64px;
+        padding: 23px 64px;
         border: 2px solid transparent;
         font-size: 24px;
 
@@ -83,7 +86,7 @@
 
     &__privacy label {
         position: relative;
-        padding-left: 28px;
+        padding-left: 32px;
         display: block;
         font-family: var(--font-2);
         color: rgba(255, 255, 255, 0.5);
