@@ -30,7 +30,6 @@
         background: var(--accent);
         color: white;
         outline: none;
-        color: 1px solid red;
 
         &:hover {
             border-bottom: 1px solid white;
@@ -45,14 +44,11 @@
     input[type="email"]::placeholder,
     textarea::placeholder {
         color: rgba(255, 255, 255, 0.5);
+        text-transform: lowercase;
 
         &:hover {
             color: white;
         }
-    }
-
-    textarea::placeholder {
-        color: red;
     }
 
     input[type="text"]:hover::placeholder,
