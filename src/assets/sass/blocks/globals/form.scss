@@ -1,11 +1,11 @@
 .form {
-    padding: 64px 45px 70px;
+    padding: 6.4rem 4.5rem 7rem;
     background: var(--accent);
 
     &__wrap {
         display: flex;
         justify-content: space-between;
-        gap: 24px;
+        gap: 2.4rem;
     }
 
     &__wrap .form__group {
@@ -13,7 +13,7 @@
     }
 
     &__group {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
         
     }
 
@@ -23,7 +23,7 @@
         height: 70px;
         width: 100%;
         font-family: var(--font-2);
-        font-size: 16px;
+        font-size: 1.6rem;
         color: white;
         border: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -36,7 +36,7 @@
     }
 
     textarea {
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
         resize: none;
         &::placeholder {
             padding-top: 24px;
@@ -63,13 +63,13 @@
     &__footer {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 3rem;
     }
 
     &__submit {
-        padding: 23px 64px;
+        padding: 2.3rem 6.4rem;
         border: 2px solid transparent;
-        font-size: 24px;
+        font-size: 2.4rem;
 
         &:hover {
             border: 2px solid white;
@@ -86,11 +86,11 @@
 
     &__privacy label {
         position: relative;
-        padding-left: 32px;
+        padding-left: 3.2rem;
         display: block;
         font-family: var(--font-2);
         color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 400;
         cursor: pointer;
 

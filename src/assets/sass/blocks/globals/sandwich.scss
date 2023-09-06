@@ -29,6 +29,11 @@
   top: 6px;
   transform: rotate(-45deg);
 }
+.sandwich--active {
+  .sandwich__line {
+    background: white;
+  }
+}
 
 .sandwich__line {
   position: absolute;
