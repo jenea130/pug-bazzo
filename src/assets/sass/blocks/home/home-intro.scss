@@ -31,8 +31,26 @@
         strong {
             color: var(--accent);
         }
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 1000px) {
             font-size: 4rem;
+        }
+        @media screen and (max-width: 900px) {
+            font-size: 3.8rem;
+        }
+        @media screen and (max-width: 767px) {
+            font-size: 3.2rem;
+        }
+        @media screen and (max-width: 640px) {
+            // font-size: 3rem;
+            max-width: 80%;
+        }
+        @media screen and (max-width: 530px) {
+            max-width: 90%;
+            font-size: 3rem;
+        }
+        @media screen and (max-width: 440px) {
+            max-width: 96%;
+            font-size: 2.8rem;
         }
     }
 }
