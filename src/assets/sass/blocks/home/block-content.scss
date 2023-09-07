@@ -50,6 +50,10 @@
 
     &__list {
         padding-left: 1.8rem;
+        column-count: 2;
+        @media screen and (max-width: 500px) {
+            column-count: 1;
+        }
 
         li {
             margin-bottom: 0.6rem;
