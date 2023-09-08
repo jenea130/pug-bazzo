@@ -10,7 +10,10 @@
         margin-bottom: 8rem;
     }
     @media screen and (max-width: 900px) {
-        margin-bottom: 6rem;
+        margin-bottom: 5rem;
+    }
+    @media screen and (max-width: 768px) {
+        margin-bottom: 4rem;
     }
 
     &__wrap {
@@ -27,7 +30,11 @@
             padding-bottom: 7rem;
         }
         @media screen and (max-width: 900px) {
+            padding-bottom: 5rem;
             display: block;
+        }
+        @media screen and (max-width: 768px) {
+            padding-bottom: 4rem;
         }
     }
 

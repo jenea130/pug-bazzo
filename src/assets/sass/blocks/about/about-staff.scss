@@ -1,28 +1,82 @@
 .about-staff {
-    padding-bottom: 89px;
-    margin-bottom: 93px;
+    margin-bottom: 9.3rem;
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 8rem;
+    }
+    @media screen and (max-width: 1100px) {
+        margin-bottom: 7rem;
+    }
+    @media screen and (max-width: 1000px) {
+        margin-bottom: 6rem;
+    }
+    @media screen and (max-width: 900px) {
+        margin-bottom: 5rem;
+    }
+    @media screen and (max-width: 768px) {
+        margin-bottom: 4rem;
+    }
 
     &__title {
-        margin-bottom: 57px;
+        margin-bottom: 5.7rem;
+        @media screen and (max-width: 1000px) {
+            margin-bottom: 4.6rem;
+        }
+        @media screen and (max-width: 900px) {
+            margin-bottom: 3.6rem;
+        }
     }
 
     &__wrap {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        gap: 23px;
+        padding-bottom: 8.9rem;
+        margin: 0 -11px;
+        border-bottom: 1px solid var(--accent);
+        @media screen and (max-width: 1200px) {
+            padding-bottom: 8rem;
+        }
+        @media screen and (max-width: 1100px) {
+            padding-bottom: 7rem;
+        }
+        @media screen and (max-width: 1000px) {
+            padding-bottom: 6rem;
+        }
+        @media screen and (max-width: 900px) {
+            padding-bottom: 5rem;
+        }
+        @media screen and (max-width: 768px) {
+            padding-bottom: 3rem;
+            margin: 0 -8px;
+        }
+        @media screen and (max-width: 576px) {
+            display: block;
+            padding-bottom: 2rem;
+        }
     }
 
     &__item {
-        flex: 1;
+        flex: 0 0 calc(100% / 4 - 22px);
+        margin: 0 11px;
+        @media screen and (max-width: 768px) {
+            flex: 0 0 calc(100% / 2 - 16px);
+            margin: 0 8px 2rem;
+        }
+        @media screen and (max-width: 576px) {
+            margin-bottom: 4rem;
+        }
     }
 
     &__content {
-        padding: 32px 0 10px;
+        padding: 3.2rem 0 1rem;
+        @media screen and (max-width: 900px) {
+            padding: 2.6rem 0 1rem;
+        }
     }
 
     &__img {
         position: relative;
-        height: 333px;
+        padding-bottom: 100%;
 
         img {
             position: absolute;
@@ -35,10 +89,16 @@
     }
 
     &__subtitle {
-        margin-bottom: 18px;
+        margin-bottom: 1.8rem;
+        @media screen and (max-width: 900px) {
+            margin-bottom: 1.2rem;
+        }
     }
 
     &__label {
-        margin-bottom: 9px;
+        margin-bottom: 0.9rem;
+        @media screen and (max-width: 900px) {
+            margin-bottom: 0.6rem;
+        }
     }
 }
