@@ -6,6 +6,9 @@
         display: flex;
         justify-content: space-between;
         gap: 2.4rem;
+        @media screen and (max-width: 1000px) {
+            display: block;
+        }
     }
 
     &__wrap .form__group {
@@ -108,6 +111,9 @@
         height: 16px;
         background: var(--accent);
         border: 1px solid white;
+        @media screen and (max-width: 900px) {
+            top: 0px;
+        }
     }
 
     &__privacy label::after {
@@ -120,5 +126,8 @@
         background: url("../i/svg/icon-form.svg") no-repeat center;
         opacity: 0;
         transition: all 0.4s;
+        @media screen and (max-width: 900px) {
+            top: 5px;
+        }
     }
 }

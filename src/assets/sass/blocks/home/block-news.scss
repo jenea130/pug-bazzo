@@ -30,28 +30,32 @@
 
     &__item {
         margin: 0 10px 5.5rem;
-        flex: 0 0 calc(25% - 20px);
+        flex: 1 1 calc(25% - 20px);
         padding: 1.6rem 1.6rem 0;
         border: 1px solid rgba(14, 129, 174, 0.10);
 
         @media screen and (max-width: 1200px) {
-            flex: 0 0 calc(100% / 4 - 10px);
+            flex: 1 1 calc(100% / 4 - 10px);
             margin: 0 5px 3.2rem;
         }
 
         @media screen and (max-width: 1100px) {
-            flex: 0 0 calc(100% / 3 - 10px);
+            flex: 1 1 calc(100% / 3 - 10px);
             margin: 0 5px 2.2rem;
         }
 
-        @media screen and (max-width: 992px) {
-            flex: 0 0 calc(100% / 2 - 10px);
+        @media screen and (max-width: 900px) {
+            flex: 1 1 calc(100% / 2 - 10px);
+        }
+
+        @media screen and (max-width: 576px) {
+            flex: 1 1 100%;
         }
     }
 
     &__img {
         position: relative;
-        min-height: 30rem;
+        padding: 0 0 90% 0;
 
         img {
             position: absolute;
