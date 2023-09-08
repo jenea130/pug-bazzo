@@ -1,9 +1,13 @@
 .page-news {
     .block-news {
         margin-bottom: 8.7rem;
-
+        @media screen and (max-width: 576px) {
+            margin-bottom: 6rem;
+        }
+        
         &__title {
             display: none;
         }
     }
+    
 }
