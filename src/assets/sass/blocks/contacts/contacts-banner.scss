@@ -1,10 +1,10 @@
 .contacts-banner {
 
-    margin-bottom: 72px;
+    margin-bottom: 7.2rem;
 
     &__img {
         position: relative;
-        height: 350px;
+        height: 35rem;
         z-index: 1;
 
         img {
@@ -19,11 +19,11 @@
 
     &__title {
         position: relative;
-        top: 266px;
+        top: 26.6rem;
         font-family: var(--font-2);
-        font-size: 28px;
+        font-size: 2.8rem;
         font-weight: 600;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.056rem;
         color: white;
         z-index: 2;
 
