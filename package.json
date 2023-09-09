@@ -41,7 +41,7 @@
     "webpack-stream": "^6.1.0"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.32.2",
     "gsap": "^3.5.1",
     "jquery": "^3.5.1"
   }
